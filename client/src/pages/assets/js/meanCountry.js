@@ -22,7 +22,7 @@ ChartJS.register(
 export const data = {
   labels: [
     'United States',
-    'China',
+    'India',
     'Germany',
     'Japan',
     'Russia',
@@ -32,10 +32,10 @@ export const data = {
   datasets: [
     {
       label: 'Carbon Emissions in Metric Tons',
-      data: [14.24, 7.41, 7.69, 8.51, 10.81, 0.99, 2.31],
+      data: [14.24, 1.6, 7.69, 8.51, 10.81, 0.99, 2.31],
       backgroundColor: [
         'rgba(162, 213, 159, 1)',
-        'rgba(98, 187, 160, 1)',
+        'rgba(160, 200, 220, 1)',
         'rgba(72, 139, 118, 1)',
         'rgba(27, 80, 109, 1)',
         'rgba(44, 130, 179, 1)',

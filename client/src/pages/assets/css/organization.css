@@ -1,0 +1,27 @@
+#form {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin: auto;
+}
+
+.leftForm {
+    display: flex;
+    flex-direction: column;
+    margin-right: 3rem;
+    
+}
+.leftForm label{
+    margin-top: 2rem;
+}
+.rightForm input{
+    margin-top: 2rem;
+}
+.organ{
+border: none;
+background-color: var(--green);
+color: var(--white);
+width: 12rem;
+margin-top: 4rem;
+margin-left: 40%;
+}

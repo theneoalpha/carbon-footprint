@@ -26,7 +26,7 @@ const Calculator = () => {
     flushes: 5,
     bottles: 14,
     fridge: 'Yes',
-    TV: 4,
+    GAS: 4,
     laptop: 2,
     desktop: 8,
     monitor: 6,
@@ -48,7 +48,7 @@ const Calculator = () => {
     flushes,
     bottles,
     fridge,
-    TV,
+    GAS,
     laptop,
     desktop,
     monitor,
@@ -105,7 +105,7 @@ const Calculator = () => {
     flushes,
     bottles,
     fridge,
-    TV,
+    GAS,
     laptop,
     desktop,
     monitor,
@@ -153,7 +153,7 @@ const Calculator = () => {
       fridgeEmissions = 495;
     }
 
-    const TVEmissions = 14.8272 * TV;
+    const MotorGasoline = 2243.5 * GAS;
     const desktopEmissions = 29.01095 * desktop;
     const laptopEmissions = 7.73625 * laptop;
     const monitorEmissions = 4.512814 * monitor;
@@ -189,7 +189,7 @@ const Calculator = () => {
 
     const electricityEmissions = Math.round(
       fridgeEmissions +
-        TVEmissions +
+        MotorGasoline +
         desktopEmissions +
         laptopEmissions +
         monitorEmissions +
@@ -231,7 +231,7 @@ const Calculator = () => {
       flushes,
       bottles,
       fridge,
-      TV,
+      GAS,
       laptop,
       desktop,
       monitor,
@@ -282,7 +282,7 @@ const Calculator = () => {
                       labelId="car-type"
                       id="carType"
                       name="carType"
-                      defaultValue={carType}
+                      defaulGASalue={carType}
                       value={carType}
                       onChange={handleChange}
                       className="dropdown"
@@ -309,7 +309,7 @@ const Calculator = () => {
                         },
                       }}
                       aria-label="Car Miles"
-                      defaultValue={1000}
+                      defaulGASalue={1000}
                       onChange={handleChange}
                       valueLabelDisplay="on"
                       name="carMiles"
@@ -335,7 +335,7 @@ const Calculator = () => {
                         },
                       }}
                       aria-label="Bus Miles"
-                      defaultValue={0}
+                      defaulGASalue={0}
                       onChange={handleChange}
                       valueLabelDisplay="on"
                       name="busMiles"
@@ -361,7 +361,7 @@ const Calculator = () => {
                         },
                       }}
                       aria-label="Train Miles"
-                      defaultValue={0}
+                      defaulGASalue={0}
                       onChange={handleChange}
                       valueLabelDisplay="on"
                       name="trainMiles"
@@ -387,7 +387,7 @@ const Calculator = () => {
                         },
                       }}
                       aria-label="Plane Miles"
-                      defaultValue={0}
+                      defaulGASalue={0}
                       onChange={handleChange}
                       valueLabelDisplay="on"
                       name="planeMiles"
@@ -411,7 +411,7 @@ const Calculator = () => {
                       labelId="fridgeLabel"
                       id="fridge"
                       name="fridge"
-                      defaultValue={fridge}
+                      defaulGASalue={fridge}
                       value={fridge}
                       onChange={handleChange}
                       className="dropdown"
@@ -431,7 +431,7 @@ const Calculator = () => {
                       labelId="climateLabel"
                       id="climate"
                       name="climate"
-                      defaultValue={climate}
+                      defaulGASalue={climate}
                       value={climate}
                       onChange={handleChange}
                       className="dropdown"
@@ -459,7 +459,7 @@ const Calculator = () => {
                         },
                       }}
                       aria-label="Number of Showers"
-                      defaultValue={8}
+                      defaulGASalue={8}
                       onChange={handleChange}
                       valueLabelDisplay="on"
                       name="showerNumber"
@@ -485,7 +485,7 @@ const Calculator = () => {
                         },
                       }}
                       aria-label="Time spent in Shower"
-                      defaultValue={10}
+                      defaulGASalue={10}
                       onChange={handleChange}
                       valueLabelDisplay="on"
                       name="minutes"
@@ -511,7 +511,7 @@ const Calculator = () => {
                         },
                       }}
                       aria-label="Loads of Laundry"
-                      defaultValue={10}
+                      defaulGASalue={10}
                       onChange={handleChange}
                       valueLabelDisplay="on"
                       name="laundry"
@@ -537,7 +537,7 @@ const Calculator = () => {
                         },
                       }}
                       aria-label="Flushes"
-                      defaultValue={5}
+                      defaulGASalue={5}
                       onChange={handleChange}
                       valueLabelDisplay="on"
                       name="flushes"
@@ -563,7 +563,7 @@ const Calculator = () => {
                         },
                       }}
                       aria-label="Bottles of Water"
-                      defaultValue={14}
+                      defaulGASalue={14}
                       onChange={handleChange}
                       valueLabelDisplay="on"
                       name="bottles"
@@ -575,7 +575,7 @@ const Calculator = () => {
                   </Box>
 
                   <Box sx={{ m: 1, width: 300 }}>
-                    <label>Hours of TV Per Day</label>
+                    <label>Hours of GAS Per Day</label>
                     <Slider
                       sx={{
                         color: '#2C82B3',
@@ -588,11 +588,11 @@ const Calculator = () => {
                           padding: '5px',
                         },
                       }}
-                      aria-label="Hours of TV"
-                      defaultValue={4}
+                      aria-label="Hours of GAS"
+                      defaulGASalue={4}
                       onChange={handleChange}
                       valueLabelDisplay="on"
-                      name="TV"
+                      name="GAS"
                       step={2}
                       marks
                       min={0}
@@ -616,7 +616,7 @@ const Calculator = () => {
                         },
                       }}
                       aria-label="Hours of Laptop"
-                      defaultValue={2}
+                      defaulGASalue={2}
                       onChange={handleChange}
                       valueLabelDisplay="on"
                       name="laptop"
@@ -642,7 +642,7 @@ const Calculator = () => {
                         },
                       }}
                       aria-label="Hours of Desktop"
-                      defaultValue={8}
+                      defaulGASalue={8}
                       onChange={handleChange}
                       valueLabelDisplay="on"
                       name="desktop"
@@ -668,7 +668,7 @@ const Calculator = () => {
                         },
                       }}
                       aria-label="Hours of Monitor"
-                      defaultValue={6}
+                      defaulGASalue={6}
                       onChange={handleChange}
                       valueLabelDisplay="on"
                       name="monitor"
@@ -694,7 +694,7 @@ const Calculator = () => {
                         },
                       }}
                       aria-label="Square Feet"
-                      defaultValue={2000}
+                      defaulGASalue={2000}
                       onChange={handleChange}
                       valueLabelDisplay="on"
                       name="size"
@@ -720,7 +720,7 @@ const Calculator = () => {
                         },
                       }}
                       aria-label="AC Days"
-                      defaultValue={150}
+                      defaulGASalue={150}
                       onChange={handleChange}
                       valueLabelDisplay="on"
                       name="acDays"
@@ -748,7 +748,7 @@ const Calculator = () => {
                         },
                       }}
                       aria-label="Gas Days"
-                      defaultValue={150}
+                      defaulGASalue={150}
                       onChange={handleChange}
                       valueLabelDisplay="on"
                       name="gasDays"
@@ -774,7 +774,7 @@ const Calculator = () => {
                         },
                       }}
                       aria-label="Oil Days"
-                      defaultValue={0}
+                      defaulGASalue={0}
                       onChange={handleChange}
                       valueLabelDisplay="on"
                       name="oilDays"

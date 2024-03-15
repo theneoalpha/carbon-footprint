@@ -44,7 +44,7 @@ in the root of the application to install the dependencies locally.
 The following are screenshots of the deployed site:
 
 Home Page:
-![Home](/client/src/pages/assets/images/home.png)
+![Home](/client/src/pages/assets/images/newUi.png)
 
 Login Page:
 ![Login](/client/src/pages/assets/images/login.png)
@@ -54,6 +54,9 @@ Signup Page:
 
 Calculator Page:
 ![Calculator](/client/src/pages/assets/images/calculator.png)
+
+Organisation Calculator Page:
+![Login](/client/src/pages/assets/images/organisation.png)
 
 My Footprint Page (with Emissions, Graph, and Pledges):
 ![Footprint](/client/src/pages/assets/images/footprint.png)

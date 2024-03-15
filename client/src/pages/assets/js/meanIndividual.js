@@ -6,16 +6,16 @@ ChartJS.register(ArcElement, Tooltip, Legend);
 
 export const data = {
   labels: [
-    'Food',
-    'Home Heating and Cooling',
-    'Transportation',
-    'Stuff You Buy',
-    'Other Home Energy Use',
+    'Building',
+    'Transport',
+    'Power',
+    'Industry',
+    'Energy Sector and Agriculture',
   ],
   datasets: [
     {
       label: '# of Votes',
-      data: [14, 17, 28, 26, 15],
+      data: [7.25, 13, 44, 31, 4],
       backgroundColor: [
         'rgba(162, 213, 159, 1)',
         'rgba(98, 187, 160, 1)',

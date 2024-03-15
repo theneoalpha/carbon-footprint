@@ -7,6 +7,7 @@ import MeanCountryAnnual from './assets/js/meanCountryAnnual';
 import MeanHousehold from './assets/js/meanHousehold';
 import Auth from '../utils/auth';
 
+
 const Home = () => {
   return (
     <main className="home-main">
@@ -28,15 +29,22 @@ const Home = () => {
             <Link to="/calculator">
               <button type="submit">Calculate Your Footprint!</button>
             </Link>
+            
           </section>
         ) : (
           <section className="login-btn">
             <Link to="/login">
               <button type="submit">Calculate Your Footprint!</button>
             </Link>
+            
+            <Link to="/organization">
+              <button type="submit">Calculate Organization Carbon Footprint!</button>
+            </Link>
           </section>
         )}
         <div className="intro-text">
+          
+          
           <div className="home-p">
             <div className="home-h3">What is a carbon footprint?</div>
             <p>
@@ -111,7 +119,7 @@ const Home = () => {
           </h2>
           <br />
           <a
-            href="https://www.zerofy.net/2022/04/04/household-co2-emissions.html"
+            href="https://ourworldindata.org/co2/country/india?country=~IND"
             rel="noreferrer"
             target="_blank"
           >
@@ -119,7 +127,7 @@ const Home = () => {
           </a>
         </div>
         <div className="chart">
-          <h2>Breakdown of the Average American's Carbon Footprint</h2>
+          <h2>CO2 emissions from the Indian energy sector, 2019</h2>
           <br />
           <a
             href="https://suncommon.com/understanding-your-carbon-footprint/"
