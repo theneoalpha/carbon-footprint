@@ -32,6 +32,3 @@ Calculator Page:
 ![Footprint](/client/src/pages/assets/images/footprint.png)
 
 
-- Nina Siegel: siegel.nina.m@gmail.com, [GitHub Repository](https://github.com/nmsiegel1)
-- Daniel Conlon: danielcconlon@gmail.com, [GitHub Repository](https://github.com/DanielCConlon)
-- Amanda Klenk: amandamklenk3@gmail.com, [GitHub Repository](https://github.com/amklenk)
