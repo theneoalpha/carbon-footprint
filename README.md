@@ -1,6 +1,6 @@
 # My Carbon Footsteps
 
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 
 ## Description
 This application is for an enviromentally-conscious user who wants to calculate their carbon footprint and learn more about how to offset it in order to positively impact the world's climate. The following were the additional requirements of the application:
@@ -29,7 +29,6 @@ Signup Page:
 Calculator Page:
 ![Calculator](/client/src/pages/assets/images/calculator.png)
 
-My Footprint Page (with Emissions, Graph, and Pledges):
 ![Footprint](/client/src/pages/assets/images/footprint.png)
 
 
